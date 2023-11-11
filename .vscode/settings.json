@@ -1,0 +1,15 @@
+{
+    "makefile.launchConfigurations": [
+
+        {
+            "cwd": "/home/mabel/Documents/Code/WaTor/Homework5",
+            "binaryPath": "/home/mabel/Documents/Code/WaTor/Homework5/WaTor",
+            "binaryArgs": []
+        }
+    ],
+    "makefile.makePath": "make",
+    "makefile.makefilePath": "makefile",
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}
