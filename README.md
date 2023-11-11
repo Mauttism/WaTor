@@ -22,3 +22,7 @@ wator.init sets the program up and allows for some level of customizability.
 Dolphins are randomly generated based on the size of the board. They never starve, and never duplicate.
 
 A certain amount of regular Fish are turned into Rabbit Fish. Rabbit Fish duplicate at twice the rate.
+
+# Original
+
+If you're interested in viewing the original version of this project, what I turned in for an assignment, I have a branch called "original" where I hold the code. The main branch contains a version with resorted files, and some minor other changes/bug fixes.
