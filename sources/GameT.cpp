@@ -12,7 +12,7 @@
 using namespace std;
 using AnimalPtr = shared_ptr<AnimalT>;
 
-const int CHAR_WIDTH = 2;
+const int CH_WIDTH = 2;
 
 void GameT::Turn(size_t x, size_t y){
     static size_t callCount{1};
@@ -117,17 +117,17 @@ void GameT::Display(){
     dolphinNumber = 0;
     rabbitNumber = 0;
 
-    cout << setw(CHAR_WIDTH) << right << "";
+    cout << setw(CH_WIDTH) << right << "";
     // print 0(...) width-1
     for(size_t i = 0; i < width; i++){
-        cout << setw(CHAR_WIDTH) << right << i;
+        cout << setw(CH_WIDTH) << right << i;
     }
     cout << endl;
     // print the rest of rows
     for(size_t i = 0; i < height; i++){
-        cout << setw(CHAR_WIDTH) << right << i;
+        cout << setw(CH_WIDTH) << right << i;
         for(size_t j = 0; j < width; j++){
-            cout << setw(CHAR_WIDTH) << right << DisplayAnimal(j,i);
+            cout << setw(CH_WIDTH) << right << DisplayAnimal(j,i);
         }
         cout << endl;
     }
